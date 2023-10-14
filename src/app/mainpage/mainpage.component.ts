@@ -10,10 +10,14 @@ import { Component } from '@angular/core';
 export class MainpageComponent {
 
  buttonClicked() {
-window.location.replace("http://localhost:4200/Supermarkt")
+window.location.replace("./Supermarkt")
 }
 fastfoodClick(){
-  window.location.replace("http://localhost:4200/Fastfood")
+  window.location.replace("./Fastfood")
+
+}
+houseClicked(){
+  window.location.replace("./Wohnen")
 
 }
 }

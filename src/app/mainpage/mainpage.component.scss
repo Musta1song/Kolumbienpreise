@@ -1,9 +1,17 @@
 img{
-    width: 70px;
+    height: 85px;
     text-align: left;
     
 }
+#fo img[src="assets/supermarkt.png"]
+{
+    width: 95px;
+}
 
+
+div{
+    display: flex;
+}
 
 button{
     
@@ -30,6 +38,7 @@ body{
     background-image:
     url("/assets/cop.png");
     ;
-    height: 850px;
+    height: 860px;
+    width: 100%;
     
 }

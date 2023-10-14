@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 mainPage(){
-  window.location.replace("http://localhost:4200")
+  window.location.replace("./")
 }
 }
