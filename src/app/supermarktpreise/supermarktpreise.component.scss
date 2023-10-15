@@ -1,8 +1,10 @@
 table{
     margin-left: 100px;
-    margin-top: 100px;
-    background-color: rgba(234, 250, 7, 0.1);
+    background-color: #eafa071a;
   
+}
+div{
+    
 }
 img{
     width: 40px;
@@ -13,9 +15,17 @@ iframe{
     margin-top: 65px;
 }
 body{
-    margin-left: 0px;
-    margin-right: 0px;
+   
     
-    height: 850px;
+    margin-top: 0px;
+    background-image:
+    url("/assets/supmer.jpg") ;
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.7);
+    margin-top: 0px;
+      
+    height: 933px;
     width: 100%;
+    
 }

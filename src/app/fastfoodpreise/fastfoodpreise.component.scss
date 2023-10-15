@@ -1,7 +1,9 @@
 table{
-    margin-left: 100px;
     margin-top: 100px;
     background-color: rgba(234, 250, 7, 0.1);
+    .kfc{
+        margin-left: 100px;
+    }
   
 }
 
@@ -10,7 +12,7 @@ img{
     
 }
 iframe{
-    margin-left: 100px;
+    margin-left: 10px;
     margin-top: 70px;
     opacity: 0.75;
 }
@@ -25,8 +27,9 @@ body
     background-image:
     url("/assets/fastfoodwall.jpg");
     width: 100px;
-
-    height: 900px;
-    width: 1980px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    height: 933px;
+    width: 100%;
     
 }
