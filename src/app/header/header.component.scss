@@ -3,11 +3,13 @@ header {
     background-color: green;
     margin: 0;
     height: 63.0px;
+    min-height: 7vh;
+    font-size: 20px;
 }
 h1{
     margin-left: 20px;
     margin-top: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 }
 img{
     width: 37px;
