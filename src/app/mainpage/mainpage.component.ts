@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-
-
+import { Component, Directive, Input } from '@angular/core';
 @Component({
   selector: 'app-mainpage',
   templateUrl: './mainpage.component.html',
@@ -9,16 +7,22 @@ import { Component } from '@angular/core';
 
 export class MainpageComponent {
 
- buttonClicked() {
-window.location.replace("./Supermarkt")
-}
-fastfoodClick(){
-  window.location.replace("./Fastfood")
+  buttonClicked() {
+    window.location.replace("./Supermarkt") // switch to Supermarkt
 
-}
-houseClicked(){
-  window.location.replace("./Wohnen")
+  }
 
+
+  fastfoodClick() {
+    window.location.replace("./Fastfood") // switch to Fastfood
+
+
+
+  }
+  houseClicked() {
+    window.location.replace("./Wohnen") // switch to Wohnen
+
+  }
 }
-}
+
 

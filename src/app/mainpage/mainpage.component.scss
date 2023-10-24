@@ -2,17 +2,25 @@ img{
     height: 85px;
     text-align: left;
     
+    
 }
 #fo img[src="assets/supermarkt.png"]
 {
     width: 95px;
 }
-
-
-div{
-    display: flex;
+h3{
+    color: rgb(66, 56, 56);
+    text-align: left;
 }
 
+div{
+    display: block;
+}
+h2{
+    text-align: center;
+    margin-left: 0%;
+    ;
+}
 button{
     
     margin-top: 30px ;
@@ -20,7 +28,7 @@ button{
     &:first-child{
         left: 10px;
     }
-   
+   text-align: center;
 
     width: 240px;
     height: 150px;
@@ -39,8 +47,10 @@ body{
     url("/assets/cop.jpg");
     ;
     background-size: 100% 100% ;
-    height: 950px;
     width: 100%;
+    min-height: 93vh;
 
-    
+}
+html{
+height: 100%;
 }

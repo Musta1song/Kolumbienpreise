@@ -7,8 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { SupermarktpreiseComponent } from './supermarktpreise/supermarktpreise.component';
 import { FastfoodpreiseComponent } from './fastfoodpreise/fastfoodpreise.component';
-import { FooterComponent } from './footer/footer.component';
 import { WohnenComponent } from './wohnen/wohnen.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +17,6 @@ import { WohnenComponent } from './wohnen/wohnen.component';
     MainpageComponent,
     SupermarktpreiseComponent,
     FastfoodpreiseComponent,
-    FooterComponent,
     WohnenComponent
   ],
   imports: [
