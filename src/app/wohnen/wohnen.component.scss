@@ -1,25 +1,28 @@
 table{
     margin-left: 10%;
     margin-right: auto;
-    background-color: rgba(223, 224, 210, 0.521);  
+    background-color: rgba(223, 224, 210, 0.521);
+}
+exchange-rate{
+  margin-top: 10%;
+  margin-left: 10%;
 }
 div{
     display: flex;
 }
-iframe{
-    margin-right: 600px;
-}
+
 
 
 body{
     background-image:
     url("/assets/bogota.jpg");
-    background-size: 100% 100% ;
-    margin-top: 0px;
+    width: 100px;
+    background-size: 100% 100%;
+    background-color: transparent;
+    height: 900px;
+    width: 200vh;
 
-    height: 950px;
-    min-width: 100vh;;
-    
+
 }
 th{
     color: rgb(189, 19, 19);

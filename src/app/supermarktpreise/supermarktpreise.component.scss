@@ -1,9 +1,12 @@
 table {
     margin-left: 3%;
-    background-color: rgb(223, 216, 216);  
+    background-color: rgba(206, 233, 206, 0.753);
     margin-top: 3%;
-   
 
+
+}
+exchange-rate{
+  margin-left: 3%;
 }
 .product{
     font-size: large;
@@ -29,9 +32,9 @@ img {
     width: 40px;
 }
 
-iframe {
+exchange-rate{
     margin-left: 100px;
-    margin-top: 200%;
+    margin-top: 30%;
     opacity: 0.8;
     font-size: large;
 }

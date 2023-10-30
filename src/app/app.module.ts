@@ -8,6 +8,7 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { SupermarktpreiseComponent } from './supermarktpreise/supermarktpreise.component';
 import { FastfoodpreiseComponent } from './fastfoodpreise/fastfoodpreise.component';
 import { WohnenComponent } from './wohnen/wohnen.component';
+import { ExchangerateComponent } from './exchangerate/exchangerate.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { WohnenComponent } from './wohnen/wohnen.component';
     MainpageComponent,
     SupermarktpreiseComponent,
     FastfoodpreiseComponent,
-    WohnenComponent
+    WohnenComponent,
+    ExchangerateComponent
   ],
   imports: [
     BrowserModule,
