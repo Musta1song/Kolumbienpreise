@@ -16,11 +16,10 @@ div{
 body{
     background-image:
     url("/assets/bogota.jpg");
-    width: 100px;
     background-size: 100% 100%;
     background-color: transparent;
     height: 900px;
-    width: 200vh;
+    min-width: 100vh;
 
 
 }
