@@ -2,20 +2,21 @@ img{
     height: 85px;
     text-align: left;
 
+}
+.time{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 200px;
+}
 
-}
-#fo img[src="assets/supermarkt.png"]
-{
-    width: 95px;
-}
-h3{
+.h3el{
     color: rgb(66, 56, 56);
     text-align: left;
     font-style: italic;
 }
 
 div{
-    display: block;
+    display: flex;
 }
 h2{
     text-align: center;

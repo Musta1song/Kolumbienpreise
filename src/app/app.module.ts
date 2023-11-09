@@ -19,7 +19,8 @@ import { ExchangerateComponent } from './exchangerate/exchangerate.component';
     SupermarktpreiseComponent,
     FastfoodpreiseComponent,
     WohnenComponent,
-    ExchangerateComponent
+    ExchangerateComponent,
+    
   ],
   imports: [
     BrowserModule,
