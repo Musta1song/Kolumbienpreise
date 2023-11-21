@@ -8,7 +8,7 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { SupermarktpreiseComponent } from './supermarktpreise/supermarktpreise.component';
 import { FastfoodpreiseComponent } from './fastfoodpreise/fastfoodpreise.component';
 import { WohnenComponent } from './wohnen/wohnen.component';
-import { ExchangerateComponent } from './exchangerate/exchangerate.component';
+import {HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -18,13 +18,13 @@ import { ExchangerateComponent } from './exchangerate/exchangerate.component';
     MainpageComponent,
     SupermarktpreiseComponent,
     FastfoodpreiseComponent,
-    WohnenComponent,
-    ExchangerateComponent,
-    
+    WohnenComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientJsonpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

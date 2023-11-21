@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ExchangerateComponent } from '../exchangerate/exchangerate.component';
 import { TimeService } from '../time.service';
+import { CurrencyService } from '../Currencyservice/currency.service';
 
 @Component({
   selector: 'app-wohnen',
@@ -8,7 +8,7 @@ import { TimeService } from '../time.service';
   styleUrls: ['./wohnen.component.scss']
 })
 export class WohnenComponent {
-  constructor(public ti: TimeService){}
+  constructor(public ti: TimeService,public cs: CurrencyService){}
 
 
 

@@ -1,35 +1,33 @@
-table{
-    margin-top: 40px;
+table {
+    margin-top: 20px;
     background-color: rgba(234, 250, 7, 0.1);
-    .kfc{
+
+    .kfc {
         margin-left: 100px;
     }
 
 }
-.time{
+
+.time {
     text-align: right;
     margin-left: auto;
     margin-right: 200px;
 }
 
-img{
+img {
     width: 40px;
 
 }
-exchange-rate{
-    margin-left: 75.0px;
-    margin-top: 10px;
-}
 
 
-div{
+div {
     display: flex;
 }
-body
-{
+
+body {
     margin-top: 20px;
     background-image:
-    url("/assets/fastfoodwall.jpg");
+        url("/assets/fastfoodwall.jpg");
     width: 100px;
     background-size: 100% 100%;
     background-color: transparent;
@@ -37,4 +35,13 @@ body
     min-width: 100%;
 
 }
+.currencybtn{
+    background-color: rgb(179, 211, 181);
+    color: rgb(3, 3, 3);
+    font-weight: 100;
+}
 
+
+.price {
+    text-align: right;
+}

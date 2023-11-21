@@ -20,6 +20,7 @@ component: FastfoodpreiseComponent
 {path: 'Wohnen',
 component: WohnenComponent}
 
+
 ];
 
 @NgModule({

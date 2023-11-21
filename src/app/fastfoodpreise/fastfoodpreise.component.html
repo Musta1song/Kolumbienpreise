@@ -1,71 +1,57 @@
 <body>
+
     <div>
         <table style="display: inline-block; margin-left: 75px;" id="mcdo">
             <tr>
                 <th><img src="assets/mcdonalds.png"></th>
                 <th>Fast Food</th>
-                <th colspan="3">Preis: COP$</th>
+                <th colspan=""> {{cs.currentCurrency}}</th>
             </tr>
 
             <tr>
                 <td>1</td>
-                <td >Big Mac</td>
-                <td>20.900 COP</td>
+                <td>Big Mac</td>
+                <td class="price">{{cs.math(20900)}}</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Hamburger</td>
-                <td>9.900 COP</td>
+                <td class="price">{{cs.math(9900)}}</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Cheeseburger</td>
-                <td>10.900 COP</td>
+                <td class="price">{{cs.math(10900)}}</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Große Pommes</td>
-                <td colspan="3">8.900 COP</td>
+                <td class="price">{{cs.math(8900)}}</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td><br>
-            </tr>
-            <br>
-            <tr>
-                <th><img src="assets/leer.png" alt=""> </th>
+                <th><img src="assets/lemonade.png" alt=""> </th>
                 <th>Getränke</th>
-                <th colspan=""><img src="assets/leer.png" alt=""></th>
-            </tr><br>
+                <th colspan=""></th>
+            </tr>
             <tr>
                 <td>1</td>
-                <td align="right">Coca-Cola groß</td>
-                <td colspan="3" >7.000 COP</td>
-            </tr><br>
+                <td>Coca-Cola groß</td>
+                <td class="price">{{cs.math(7000)}}</td>
+            </tr>
             <tr>
-                <th><img src="assets/leer.png" alt=""></th>
+                <th><img src="assets/milkshake.png" alt=""></th>
                 <th>Desserts</th>
                 <th><img src="assets/leer.png" alt=""></th>
-            </tr><br>
+            </tr>
             <tr>
                 <td>1</td>
                 <td>Mcflurry</td>
-                <td>10.900 COP</td>
+                <td class="price">{{cs.math(10900)}}</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Milchshake</td>
-                <td>11.900 COP</td>
-            </tr>
-            <tr>
-                <td> </td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td> </td>
-                <td></td>
-                <td></td>
+                <td class="price">{{cs.math(11900)}}</td>
             </tr>
             <br><br>
             <tr>
@@ -78,81 +64,75 @@
             <tr>
                 <th><img src="assets/kfc.png"></th>
                 <th>Fast Food</th>
-                <th>Preis: COP$</th>
+                <th>{{cs.currentCurrency}}</th>
             </tr>
             <tr>
                 <td>1</td>
                 <td>9 Hot Wings</td>
-                <td>18.900 COP</td>
+                <td class="price">{{cs.math(18900)}}</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>2 Chicken Wings</td>
-                <td>9.900 COP</td>
+                <td class="price">{{cs.math(9900)}}</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Bbq Crunch</td>
-                <td>9.900 COP</td>
+                <td class="price">{{cs.math(9900)}}</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Popcorn klein</td>
-                <td>9.500 COP</td>
+                <td class="price">{{cs.math(9500)}}</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Große Pommes</td>
-                <td>7.500 COP</td>
+                <td class="price">{{cs.math(7500)}}</td>
             </tr>
-            <br>
             <tr>
-                <th> <img src="assets/leer.png" alt=""></th>
+                <th> <img src="assets/lemonade.png" alt=""></th>
                 <th>Getränke</th>
                 <th></th>
-            </tr><br>
+            </tr>
             <tr>
                 <td>1</td>
                 <td>Pepsi Cola 400ml</td>
-                <td>3.500 COP</td>
-            </tr><br>
+                <td class="price">{{cs.math(3500)}}</td>
+            </tr>
             <tr>
-                <th><img src="assets/leer.png" alt=""></th>
+                <th><img src="assets/milkshake.jpg" alt=""></th>
                 <th>Desserts</th>
                 <th></th>
-            </tr><br>
+            </tr>
             <tr>
                 <td>1</td>
                 <td>Sundae</td>
-                <td>5.500 COP</td>
+                <td class="price">{{cs.math(5500)}}</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Avalancha Oreo</td>
-                <td>8.500 COP</td>
+                <td class="price">{{cs.math(8500)}}</td>
             </tr>
-            <tr>
-                <td> </td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td> </td>
-                <td></td>
-                <td></td>
-            </tr>
-            <br><br>
+          
+            <br>
             <tr>
                 <th>Stand: </th>
                 <th> Oktober 2023</th>
             </tr>
         </table>
+        <div class="button"> <button class="currencybtn" id="currencybtn" (click)="cs.ChangeCurrency()">{{cs.currencybtnText}}</button>
+        </div>
         <div class="time">
-            <h3 > Aktuelle Uhrzeit in Kolumbien:
-              <br>{{ti.dateTime | date: 'hh.mm a'}}</h3>
-          </div>
+
+            <h3> Aktuelle Uhrzeit in Kolumbien:
+                <br>{{ti.dateTime | date: 'hh.mm a'}}
+            </h3>
+
+        </div>
+
     </div>
-    <div>
-    <exchange-rate></exchange-rate>
-  </div>
+
 </body>
