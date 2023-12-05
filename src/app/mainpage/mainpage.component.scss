@@ -8,24 +8,12 @@ img{
     margin-left: auto;
     margin-right: 200px;
 }
-button:hover{
-    transition-duration: 0.5s; 
-
-    height: 240px;
-    .h3el{
-        visibility: visible;
-        transition-duration: 1s; 
-
-    }
-}
 
 .h3el{
     color: rgb(66, 56, 56);
     text-align: left;
     font-style: italic;
-    visibility: hidden;
 }
-
 
 div{
     display: flex;
