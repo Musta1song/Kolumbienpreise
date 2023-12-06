@@ -10,7 +10,7 @@ import { FastfoodpreiseComponent } from './Components/fastfoodpreise/fastfoodpre
 import { WohnenComponent } from './Components/wohnen/wohnen.component';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -27,7 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule
 
   ],
   providers: [],
