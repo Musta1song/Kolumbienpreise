@@ -3,28 +3,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.living {
-    font-size: large;
 
-    font-weight: bold;
-    font-style: italic;
-}
-.price{
-    font-size: large;
-    font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 iframe {
     opacity: 0.9
 }
 .currencybtn{
-    margin-left: 25%;
     width: 123px;
     height: 46px;
-    background-color: rgb(179, 211, 181);
     font-weight: 100;
     font-size: 18px;
 }
 .button{margin-top: 30px;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

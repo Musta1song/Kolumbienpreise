@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { MainpageComponent } from './mainpage/mainpage.component';
-import { SupermarktpreiseComponent } from './supermarktpreise/supermarktpreise.component';
-import { FastfoodpreiseComponent } from './fastfoodpreise/fastfoodpreise.component';
-import { WohnenComponent } from './wohnen/wohnen.component';
-import {HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+import { HeaderComponent } from './Components/header/header.component';
+import { MainpageComponent } from './Components/mainpage/mainpage.component';
+import { SupermarktpreiseComponent } from './Components/supermarktpreise/supermarktpreise.component';
+import { FastfoodpreiseComponent } from './Components/fastfoodpreise/fastfoodpreise.component';
+import { WohnenComponent } from './Components/wohnen/wohnen.component';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import {HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    HttpClientJsonpModule
+    HttpClientJsonpModule,
+    BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

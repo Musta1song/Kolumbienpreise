@@ -1,12 +1,15 @@
 table {
     margin-top: 20px;
     background-color: rgba(234, 250, 7, 0.1);
+    font-size: 15px;
+    ;
 
     .kfc {
         margin-left: 100px;
     }
 
 }
+
 
 .time {
     text-align: right;
@@ -36,13 +39,16 @@ body {
 
 }
 .currencybtn{
-    background-color: rgb(179, 211, 181);
-    color: rgb(3, 3, 3);
-    font-weight: 100;
+    margin-left: 18%;
+    width: 105px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
+    font-family: 'ABeeZee', sans-serif;
+
  
 }
 button:hover{
-    background-color: rgb(184, 219, 188);
+    background-color: rgba(183, 250, 183, 0.84);
 
 }
 .price {

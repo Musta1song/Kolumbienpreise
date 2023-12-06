@@ -1,0 +1,46 @@
+table{
+    margin-left: 20%;
+    background-color: rgba(223, 224, 210, 0.521);
+    margin-top: 30px;
+    font-size: 17px;
+}
+.currencybtn{
+    width: 108px;
+    background-color: rgba(223, 223, 223, 0.726);
+    margin-left: 20%;
+    height: 46px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgba(221, 221, 221, 0.9);
+
+}
+
+div{
+    display: flex;
+}
+.time{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+
+
+body{
+    background-image:
+    url("/assets/bogota.jpg");
+    background-size: 100% 100%;
+    background-color: transparent;
+    height: 93vh;
+    min-width: fit-content;
+    
+    max-height: 93vh;
+
+
+}
+th{
+    color: rgb(189, 19, 19);
+    text-align: left;
+}
+

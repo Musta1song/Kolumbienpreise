@@ -1,25 +1,29 @@
-img{
+img {
     height: 85px;
     text-align: left;
 
 }
-.time{
+
+.time {
     text-align: right;
     margin-left: auto;
     margin-right: 200px;
 }
-button:hover{
-    transition-duration: 0.5s; 
 
-    height: 240px;
-    .h3el{
+button:hover {
+    transition-duration: 0.4s;
+
+    height: 220px;
+
+    .h3el {
         visibility: visible;
-        transition-duration: 1s; 
+        transition-delay: 0.095s;
+        transition-duration: 0.15s;
 
     }
 }
 
-.h3el{
+.h3el {
     color: rgb(66, 56, 56);
     text-align: left;
     font-style: italic;
@@ -27,44 +31,49 @@ button:hover{
 }
 
 
-div{
+div {
     display: flex;
 }
-h2{
+
+h2 {
     text-align: center;
     margin-left: 0%;
     ;
 }
-button{
 
-    margin-top: 50px ;
-    margin-left: 25px ;
-    &:first-child{
+button {
+
+    margin-top: 50px;
+    margin-left: 25px;
+    &:first-child {
         left: 10px;
     }
-   text-align: center;
-
+    text-align: center;
     width: 240px;
     height: 150px;
 }
-#ff{
+
+#ff {
     opacity: 1.0;
 }
-#sp{
+
+#sp {
     opacity: 2;
 }
-body{
+
+body {
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
     background-image:
-    url("/assets/cop.jpg");
+        url("/assets/cop.jpg");
     ;
-    background-size: 100% 100% ;
+    background-size: 100% 100%;
     width: 100%;
     min-height: 90vh;
 
 }
-html{
-height: 100%;
+
+html {
+    height: 100%;
 }
